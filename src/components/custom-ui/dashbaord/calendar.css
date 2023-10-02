@@ -1,0 +1,62 @@
+.fc {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.fc .fc-toolbar-title {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+/* styling the button */
+
+.fc th {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.fc .fc-scrollgrid-liquid {
+  border: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child):focus {
+  box-shadow: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child):focus {
+  box-shadow: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.fc .fc-today-button {
+  display: none;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #47a8a3;
+}
+.event-status {
+}
+.event-time {
+}
